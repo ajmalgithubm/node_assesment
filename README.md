@@ -25,8 +25,30 @@ To use this API locally, follow the steps below:
     URL : "/"
     HTTP Method : POST
     Description: Add a new book to the collection.
-    Request Body : {
-                       "title":"title_name",
-                       "author":"author_name",
-                       "summery":"sample_summery"
-                                                  }
+    Request Body : {  "title":"title_name",  "author":"author_name", "summery":"sample_summery"}
+
+ 2. **GET ALL BOOKS**
+     ```bash
+     URL: "/"
+     HTTP Method : GET
+     Description: Retrieve a list of all books in the collection.
+     
+ 3. **GET SINGLE BOOK**
+     ```bash
+     URL:'/:bid' 
+     HTTP Method: GET
+     Description: Retrieve information about a single book by specifying its unique identifier ( bid = document id of the book )
+
+4. **UPDATE A BOOK**
+     ```bash
+     URL :'/:bid'
+     HTTP Method: PUT
+     Description: Update information about a specific book by specifying its unique identifier bid.
+     Request  Body: {  "title":"new_title_name",  "author":"new_author_name", "summery":"new_sample_summery"}
+     (The Request Body may contain either old data or new data for updating the book)
+5. **DELETE A BOOK**
+     ```bash
+     URL : '/:bid'
+     HTTP Method : DELETE
+     Description: Delete a specific book from the collection by specifying its id of The book document
+                                                  
