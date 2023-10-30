@@ -19,4 +19,13 @@ To use this API locally, follow the steps below:
    ```bash
    npm start
 
-    
+##End points
+ 1.ADD A BOOK
+  URL : "/"
+  HTTP Method : POST
+  Description: Add a new book to the collection.
+  Request Body : {
+  "title":"title_name",
+  "author":"author_name",
+  "summery":"sample_summery"
+  }
