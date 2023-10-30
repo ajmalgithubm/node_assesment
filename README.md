@@ -15,7 +15,7 @@ To use this API locally, follow the steps below:
    cd your-book-api
    npm install
 
-3.Start the Server: Run the API server locally
+3. Start the Server: Run the API server locally
    ```bash
    npm start
 
