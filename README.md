@@ -11,6 +11,12 @@ To use this API locally, follow the steps below:
    git clone https://github.com/ajmalgithubm/node_assesment.git
 
 2. Navigate to the project directory and install the required dependencies using npm or yarn.
- ```bash
- cd your-book-api
-  npm install
+   ```bash
+   cd your-book-api
+   npm install
+
+3.Start the Server: Run the API server locally
+   ```bash
+   npm start
+
+    
